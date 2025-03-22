@@ -14,17 +14,23 @@
     </nav>
     <p class="subtitle">Registro de nuevos alumnos</p>
 
-    <form action="">
-        <input type="text"name="name-user" placeholder="Nombre del alumno" id="">
-        <input type="text"age="age-user" placeholder="Edad" id="">
-        <input type="text"address="address-user" placeholder="Zona residencia" id="">
-        <input type="text"email="email-user" placeholder="Email" id="">
-        <button>ENVIAR</button>
+    <button id="add-button">Agregar</button>  <!-- creacion del boton para agregar registro-->
+    <button id="consult-button">Consultar</button>  <!--creacion del boton para consultar registro-->
+    <button id="delete-button">Eliminar</button>  <!--creacion del boton para eliminar registro-->
+
+    <form id="registration-form">
+        <input type="text"name="name-user" placeholder="Nombre del alumno" id="name-input">
+        <input type="text"age="age-user" placeholder="Edad" id="age-input">
+        <input type="text"address="address-user" placeholder="Zona residencia" id="locality-input">
+        <input type="text"email="course-user" placeholder="Curso" id="course-input">
+        <input type="text"email="email-user" placeholder="Email" id="email-input">
+
+        <button type="submit">ENVIAR</button>
 
 
        </form>
 
 
-    <!---<script src="app.js"></script>-->
+    <script src="app.js"></script>
 </body>
 </html>
